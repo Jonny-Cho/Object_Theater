@@ -9,7 +9,6 @@ public class Audience {
 		ticket = seller.getTicket(this);
 	}
 	
-	//
 	public boolean hasAmount(Long amount) {
 		return this.amount >= amount;
 	}

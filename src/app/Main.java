@@ -7,7 +7,7 @@ public class Main {
 		Audience audience1 = new Audience(0L);
 		Audience audience2 = new Audience(50L);
 		TicketOffice ticketOffice = new TicketOffice(0L);
-		// seller는 tickerOffice와 독립적
+
 		TicketSeller seller = new TicketSeller();
 		
 		theater.setTicketOffices(ticketOffice);
